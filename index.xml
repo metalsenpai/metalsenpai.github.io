@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>めたる先輩</title>
+    <link>https://www.metalsenpai.com/</link>
+    <description>Recent content on めたる先輩</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 16 Jan 2022 00:53:00 +0900</lastBuildDate><atom:link href="https://www.metalsenpai.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>はじめまして</title>
+      <link>https://www.metalsenpai.com/post/2022/01/hello-world/</link>
+      <pubDate>Sun, 16 Jan 2022 00:53:00 +0900</pubDate>
+      
+      <guid>https://www.metalsenpai.com/post/2022/01/hello-world/</guid>
+      <description>&lt;p&gt;はじめまして、めたる先輩といいます。はじめてのポストなので、ちょっと自己紹介をしようと思います。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://www.metalsenpai.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.metalsenpai.com/about/</guid>
+      <description>めたる先輩 アマチュアミュージシャン、ギタリスト、ボカロ P 見習い
+https://twitter.com/lmletalsenpai
+ハードロック、ヘヴィメタルが得意なアマチュアミュージシャンです。ギターを弾きます。
+コピーバンドでの活動が中心でしたが、コロナ禍で自宅で過ごす時間が長くなったのをきっかけに作曲活動を始めました。まだまだ勉強中ですが、自分の作品をたくさんリリースできるように頑張ってます！
+使用機材 ギター  Momose MC-RESIN &amp;lsquo;20WSE/PPL ESP HORIZON-CTM Caparison TAT Special E-II EC ET Music Man JP13-7 E-II HRF NT-8B DRMS YAMAHA BB735A Headway HF-SHIKIZAKURA’21 SF,S-ESU/ATB Kemper Amps Profiler PowerRack  DTM  Cubase 11 Pro KOMPLETE 13 ULTIMATE iZotope Music Production Suite 4.0 Waves Platinum, SSL EV2 Channel 初音ミク V4X Synthesizer V 小春六花  【免責事項】本ブログでの発言やコメントは、私個人の見解を述べたものになります。本ブログに掲載された内容によって生じた損害等の一切の責任を負いかねますので、ご了承ください。本ブログの情報を利用する場合は、各自の責任においてご利用ください。</description>
+    </item>
+    
+  </channel>
+</rss>

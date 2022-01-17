@@ -1,0 +1,65 @@
+﻿/*
+Theme URI: https://metalsenpai.github.io/
+*/
+
+* {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, "メイリオ", "Meiryo", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #515151;
+}
+
+body, h1, h2, h3, h4, h5, h6, html {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, "メイリオ", "Meiryo", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+    color: #515151;
+}
+
+.post h2 {
+    margin: 1.0em 0 0;
+    padding: 0.8em;
+    border-left: 7px solid #00BCF2;
+    border-bottom: 1px dashed #00BCF2;
+}
+
+.sidebar-button-icon {
+    color: #ebebeb;
+}
+
+.sidebar-button-desc {
+    color: #ebebeb;
+}
+
+#sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-name, #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-name {
+    font-size: 2.6rem;
+}
+
+#sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-bio, #sidebar[data-behavior="2"] .sidebar-profile .sidebar-profile-bio {
+    font-size: 1.8rem;
+}
+
+.postShorten-thumbnailimg-related img {
+    float: left;
+    margin: 5px 15px 5px 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+a.topmenu-title, a.topmenu-title:active {
+    cursor: pointer!important;
+    color: inherit!important;
+}
+
+a.topmenu-title:hover {
+    cursor: pointer!important;
+    color: inherit!important;
+    text-decoration:underline;
+}
+
+.main-content-wrap {
+    display: block;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
