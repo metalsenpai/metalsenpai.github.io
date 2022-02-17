@@ -16,8 +16,8 @@
     
   },
   "name":"めたる先輩",
-  "description":"\u003cp\u003eM-AUDIO の MIDI キーボード、KEYSTATION 61 に付いているボタンから、Cubase で制作している曲の再生や録音を行うための設定の紹介です。\u003c\/p\u003e",
-  "url":"https:\/\/www.metalsenpai.com\/post\/2022\/01\/m-audio-keys\/",
+  "description":"\u003cp\u003e僕の手持ちのラップトップで Cubase Pro 11 を立ち上げて、Cubase のデモトラック（Venus Theory Cubase 11 Demo Track）を再生すると、曲が盛り上がる部分で音が途切れてしまうという現象が起こります。原因を調べた結果、CPU のスロットリングによって起こっているのではないかという結論に至ったので、原因と対策について書いてみようと思います。\u003c\/p\u003e",
+  "url":"https:\/\/www.metalsenpai.com\/post\/2022\/02\/cpu-throttling\/",
   "keywords":"[, めたる先輩, ギター, 作曲, DTM, ボカロP]"
 }
 
@@ -28,25 +28,25 @@
 <meta name="generator" content="Hugo 0.92.2 with theme Tranquilpeak 0.5.3-BETA">
 <meta name="author" content="めたる先輩">
 <meta name="keywords" content=", めたる先輩, ギター, 作曲, DTM, ボカロP">
-<meta name="description" content="M-AUDIO の MIDI キーボード、KEYSTATION 61 に付いているボタンから、Cubase で制作している曲の再生や録音を行うための設定の紹介です。">
+<meta name="description" content="僕の手持ちのラップトップで Cubase Pro 11 を立ち上げて、Cubase のデモトラック（Venus Theory Cubase 11 Demo Track）を再生すると、曲が盛り上がる部分で音が途切れてしまうという現象が起こります。原因を調べた結果、CPU のスロットリングによって起こっているのではないかという結論に至ったので、原因と対策について書いてみようと思います。">
 
 
-<meta property="og:description" content="M-AUDIO の MIDI キーボード、KEYSTATION 61 に付いているボタンから、Cubase で制作している曲の再生や録音を行うための設定の紹介です。">
+<meta property="og:description" content="僕の手持ちのラップトップで Cubase Pro 11 を立ち上げて、Cubase のデモトラック（Venus Theory Cubase 11 Demo Track）を再生すると、曲が盛り上がる部分で音が途切れてしまうという現象が起こります。原因を調べた結果、CPU のスロットリングによって起こっているのではないかという結論に至ったので、原因と対策について書いてみようと思います。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた">
-<meta name="twitter:title" content="M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた">
-<meta property="og:url" content="https://www.metalsenpai.com/post/2022/01/m-audio-keys/">
-<meta property="twitter:url" content="https://www.metalsenpai.com/post/2022/01/m-audio-keys/">
+<meta property="og:title" content="CPU のスロットリングにより Cubase の音が途切れてしまう">
+<meta name="twitter:title" content="CPU のスロットリングにより Cubase の音が途切れてしまう">
+<meta property="og:url" content="https://www.metalsenpai.com/post/2022/02/cpu-throttling/">
+<meta property="twitter:url" content="https://www.metalsenpai.com/post/2022/02/cpu-throttling/">
 <meta property="og:site_name" content="めたる先輩">
-<meta property="og:description" content="M-AUDIO の MIDI キーボード、KEYSTATION 61 に付いているボタンから、Cubase で制作している曲の再生や録音を行うための設定の紹介です。">
-<meta name="twitter:description" content="M-AUDIO の MIDI キーボード、KEYSTATION 61 に付いているボタンから、Cubase で制作している曲の再生や録音を行うための設定の紹介です。">
+<meta property="og:description" content="僕の手持ちのラップトップで Cubase Pro 11 を立ち上げて、Cubase のデモトラック（Venus Theory Cubase 11 Demo Track）を再生すると、曲が盛り上がる部分で音が途切れてしまうという現象が起こります。原因を調べた結果、CPU のスロットリングによって起こっているのではないかという結論に至ったので、原因と対策について書いてみようと思います。">
+<meta name="twitter:description" content="僕の手持ちのラップトップで Cubase Pro 11 を立ち上げて、Cubase のデモトラック（Venus Theory Cubase 11 Demo Track）を再生すると、曲が盛り上がる部分で音が途切れてしまうという現象が起こります。原因を調べた結果、CPU のスロットリングによって起こっているのではないかという結論に至ったので、原因と対策について書いてみようと思います。">
 <meta property="og:locale" content="ja">
 
   
-    <meta property="article:published_time" content="2022-01-23T04:53:00">
+    <meta property="article:published_time" content="2022-02-17T04:53:00">
   
   
-    <meta property="article:modified_time" content="2022-01-23T04:53:00">
+    <meta property="article:modified_time" content="2022-02-17T04:53:00">
   
   
   
@@ -57,10 +57,6 @@
   
     
       <meta property="article:tag" content="Cubase">
-    
-      <meta property="article:tag" content="M-AUDIO">
-    
-      <meta property="article:tag" content="KEYSTATION">
     
   
 
@@ -80,18 +76,18 @@
 
 
 
-  <meta property="og:image" content="https://www.metalsenpai.com/img/post/2022/01/0123thum.jpg">
-  <meta property="twitter:image" content="https://www.metalsenpai.com/img/post/2022/01/0123thum.jpg">
+  <meta property="og:image" content="https://www.metalsenpai.com/img/post/2022/02/0217thum.png">
+  <meta property="twitter:image" content="https://www.metalsenpai.com/img/post/2022/02/0217thum.png">
 
 
-    <title>M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた</title>
+    <title>CPU のスロットリングにより Cubase の音が途切れてしまう</title>
 
     <link rel="icon" href="https://www.metalsenpai.com/favicon.ico">
     
 
     
 
-    <link rel="canonical" href="https://www.metalsenpai.com/post/2022/01/m-audio-keys/">
+    <link rel="canonical" href="https://www.metalsenpai.com/post/2022/02/cpu-throttling/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -256,29 +252,29 @@ if (!doNotTrack) {
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title">
-      M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた
+      CPU のスロットリングにより Cubase の音が途切れてしまう
     </h1>
   
   
   <div class="postShorten-meta post-meta">
     
-      <time datetime="2022-01-23T04:53:00&#43;09:00">
+      <time datetime="2022-02-17T04:53:00&#43;09:00">
         <b>公開日:</b> 
   
   
   
   
-    2022-1-23
+    2022-2-17
   
 
       </time>
-      <time datetime="2022-01-23T04:53:00&#43;09:00">
+      <time datetime="2022-02-17T04:53:00&#43;09:00">
         &nbsp;&nbsp;&nbsp;<b>最終更新日:</b> 
   
   
   
   
-    2022-1-23
+    2022-2-17
   
 &nbsp;&nbsp;
       </time>
@@ -301,10 +297,6 @@ if (!doNotTrack) {
             
   <a class="tag tag--primary tag--small" href="https://www.metalsenpai.com/tags/cubase/">Cubase</a>
 
-  <a class="tag tag--primary tag--small" href="https://www.metalsenpai.com/tags/m-audio/">M-AUDIO</a>
-
-  <a class="tag tag--primary tag--small" href="https://www.metalsenpai.com/tags/keystation/">KEYSTATION</a>
-
           </div>
         
       
@@ -317,29 +309,53 @@ if (!doNotTrack) {
           <div class="post-content markdown">
             <div class="main-content-wrap">
               
-              <p>M-AUDIO の MIDI キーボード、KEYSTATION 61 に付いているボタンから、Cubase で制作している曲の再生や録音を行うための設定の紹介です。</p>
-<h2 id="やりたいこと">やりたいこと</h2>
-<p>僕は DAW に Cubase Pro 11、MIDI キーボードとして M-AUDIO の KEYSTATION 61 を使っているのですが、KEYSTATION 61 には以下のように録音・再生・停止ボタンがついています。</p>
-<p><img src="https://www.metalsenpai.com/img/post/2022/01/0123-1.jpg" alt="KEYSTATION 61"></p>
-<p>ギターを抱えながら Cubase でレコーディングしている時に、ギターが邪魔になってパソコンのマウスやキーボードを操作するのが手間だなと感じることが多いんですよね。そこで、KEYSTATION 61 のボタンから操作できるとギターを抱えながらでも操作がラクになるかなと思って、今回紹介する設定をしてみました。</p>
-<p>KEYSTATION 61 から Cubase をコントロールする設定を行うと、この動画のように Cubase のコントロールができるようになります。</p>
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">M-AUDIO KEYSTATION 61 の録音ボタン、再生ボタン、停止ボタンから Cubase をコントロールしてみました。とても便利。 <a href="https://t.co/bdtKTIcVgv">pic.twitter.com/bdtKTIcVgv</a></p>&mdash; めたる先輩 (@lmletalsenpai) <a href="https://twitter.com/lmletalsenpai/status/1485076032738627590?ref_src=twsrc%5Etfw">January 23, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<h2 id="設定方法">設定方法</h2>
-<p>僕が行った設定方法は以下の通りです。</p>
-<p>Cubase のメニューから、[スタジオ] - [スタジオ設定] を開きます。すると以下の画面が開きますが、初期状態では [リモートデバイス] のところに &ldquo;Mackie Control&rdquo; というものが入っていないと思います。</p>
-<p><img src="https://www.metalsenpai.com/img/post/2022/01/0123-2.png" alt="リモートデバイス"></p>
-<p>[デバイスを追加] のところをクリックして、&ldquo;Mackie Control&rdquo; を追加します。</p>
-<p><img src="https://www.metalsenpai.com/img/post/2022/01/0123-3.png" alt="デバイスを追加"></p>
-<p>すると、以下のように [リモートデバイス] に &ldquo;Mackie Control&rdquo; が追加されます。[MIDI 入力] と [MIDI 出力] にそれぞれ Cubase に命令を送りたいキーボードを選択します。下の例では、&ldquo;Keystation 61 MK3&rdquo; が選択されています。</p>
-<p><img src="https://www.metalsenpai.com/img/post/2022/01/0123-4.png" alt="MIDI 設定"></p>
-<p>以上の設定をすると、KEYSTATION 61 の録音・再生・停止ボタンから Cubase の録音・再生・停止ができるようになります。</p>
-<h2 id="素人なりの解説">素人なりの解説</h2>
-<p>僕は MIDI の専門家ではないので何となくの説明しかできないのですが、こんな感じの理解をしています。</p>
-<p>MIDI という規格に対応しているソフトウェアやハードウェアは、MIDI 規格の中で定義された言葉を使って、お互いにやり取りすることができるようになります。KEYSTATION 61 と Cubase の間でも MIDI 規格にのっとってお互いに会話することができるのですが、KEYSTATION 61 の場合は MIDI 規格に対応している Mackie Control（マッキーコントロール）という仕様に対応しています。このことは、KEYSTATION 61 ユーザーガイドの P13 に説明されています。</p>
-<p>そのため、KEYSTATION 61 と Cubase との間で会話させるための手段として Mackie Control を使うようにしよう、というのが今回紹介した設定手順になります。</p>
+              <p>僕の手持ちのラップトップで Cubase Pro 11 を立ち上げて、Cubase のデモトラック（Venus Theory Cubase 11 Demo Track）を再生すると、曲が盛り上がる部分で音が途切れてしまうという現象が起こります。原因を調べた結果、CPU のスロットリングによって起こっているのではないかという結論に至ったので、原因と対策について書いてみようと思います。</p>
+<h2 id="発生する現象">発生する現象</h2>
+<p><img src="https://www.metalsenpai.com/img/post/2022/02/0217-1.png" alt="Venus Theory Cubase 11 Demo Track"></p>
+<p>僕が使っているラップトップはマイクロソフトの Surface Book 2 で、以下のような構成のマシンです。<br>
+<br></p>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>スペック</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CPU</td>
+<td>Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz、2112 Mhz、4 個のコア、8 個のロジカル プロセッサ</td>
+</tr>
+<tr>
+<td>メモリ</td>
+<td>16.0 GB</td>
+</tr>
+<tr>
+<td>SSD</td>
+<td>SAMSUNG MZFLW1T0HMLH-000MU、1TB</td>
+</tr>
+</tbody>
+</table>
+<p>ラップトップのわりにはそこそこスペックも高いので Cubase の利用も問題ないだろうと思っていたのですが、デモトラックを再生してみると音が途切れてしまいます。一般的に、Cubase で音飛びする時にはオーディオインターフェースのサンプル数が低い場合に問題が起こることがあると思いますが、僕の環境では 512 Samples でも音が飛びます。<br>
+<img src="https://www.metalsenpai.com/img/post/2022/02/0217-2.png" alt="Venus Theory Cubase 11 Demo Track"></p>
+<p>原因を調べていたところ、音が途切れるときには CPU のクロック数がグッと下がることが分かりました。Core i7-8650U にはクロック数をブーストする機能が搭載されているので、処理が重くなった際にはブーストして処理して欲しいところなのですが、実際は逆で、一番ブーストして欲しいところでクロック数が下がってしまうということが起こっているようです。</p>
+<h2 id="クロック数が下がる原因">クロック数が下がる原因</h2>
+<p>クロック数が下がる原因をいろいろと調べていたところ、行きついたのが CPU のスロットリングです。</p>
+<p>CPU に負荷がかかると、CPU の温度が高くなって不正な動作を行うことがあります。そこで、温度が高くなりすぎないように、あえて CPU の動作を遅くするための機能がスロットリングです。Cubase で音飛びする時には、このスロットリングが働いていることが分かりました。</p>
+<p>スロットリングが発生していることを確認する方法ですが、ThrottleStop というツールを使って確認します。このツールは、スロットリングが発生している時には「POWER」という赤い文字を表示して、CPU の動作に制限がかかっていることを教えてくれます。僕の環境でデモトラックを再生すると、以下のような形でスロットリングが確認できました。曲を再生した直後は何度か POWER が点灯する程度で頑張っているのですが、曲の盛り上がり部分に入ったら POWER が点灯しっぱなしで音が止まってしまいました。</p>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">CPUのスロットリングが起きて、Cubaseの音が止まる様子 <a href="https://t.co/D16On6Q060">pic.twitter.com/D16On6Q060</a></p>&mdash; めたる先輩 (@lmletalsenpai) <a href="https://twitter.com/lmletalsenpai/status/1494166830294138881?ref_src=twsrc%5Etfw">February 17, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h2 id="スロットリングの解決法">スロットリングの解決法</h2>
+<p>スロットリングによる Cubase の音飛びを解決するためには、スロットリングの機能を無効化します。ただ、スロットリングは CPU の温度が上がりすぎないようにするための安全対策のための機能なので、スロットリングを無効化するのはそれなりにリスクがあります。最悪の場合は、CPU の耐熱温度を超過して CPU 自体が壊れてしまうかもしれません。</p>
+<p>パソコンが壊れるリスクを承知でスロットリングを無効化するには、ThrottleStop で [Disable and Lock Turbo Power Limits] にチェックを入れます。<br>
+<img src="https://www.metalsenpai.com/img/post/2022/02/0217-3.png" alt="Disable and Lock Turbo Power Limits"></p>
+<p>ちなみに、Surface Book 2 ではこの解決策が使えませんでした。CPU の設定項目を変更するための機能が、Surface Book 2 では無効になっているためです。そのため、Surface Book 2 ではスロットリングを無効化することはできないのですが、安全対策という意味では確かに CPU の設定変更が出来ない方が安全といえるかもしれませんね。</p>
+<p>結果的に、オーディオインターフェースのサンプル数を 1536 Samples まで上げたら音飛びが発生しなくなりました。かなり高い数値かなとは思いますが、一時的な対策としては使えそうです。</p>
+<p>以上、Cubase の音飛びにお困りの方は参考にしてください。</p>
 <h2 id="参考情報">参考情報</h2>
-<p>M-AUDIO KEYSTATION 61 MK3 ユーザーガイド<br>
-<a href="http://m-audio.jp/keystation-61-mk3/data/JP-kstation61-MK3-v1.0.pdf" target="_blank" rel="noopener">http://m-audio.jp/keystation-61-mk3/data/JP-kstation61-MK3-v1.0.pdf</a></p>
+<p>ThrottleStop<br>
+<a href="https://www.techpowerup.com/download/techpowerup-throttlestop/" target="_blank" rel="noopener">https://www.techpowerup.com/download/techpowerup-throttlestop/</a></p>
+<p>DISABLE POWER LIMITS USING THROTTLESTOP<br>
+<a href="https://bradshacks.com/disable-power-limits/" target="_blank" rel="noopener">https://bradshacks.com/disable-power-limits/</a></p>
               
 
 
@@ -349,17 +365,17 @@ if (!doNotTrack) {
 	
 	<div class="postShorten postShorten--thumbnailimg-left" itemscope itemType="http://schema.org/BlogPosting">
 		  
-			<a href="https://www.metalsenpai.com/post/2022/02/cpu-throttling/">
+			<a href="https://www.metalsenpai.com/post/2022/01/m-audio-keys/">
 			  <div class="postShorten-thumbnailimg-related">
-				<img alt="" itemprop="image" src="https://www.metalsenpai.com/img/post/2022/02/0217thum.png"/>
+				<img alt="" itemprop="image" src="https://www.metalsenpai.com/img/post/2022/01/0123thum.jpg"/>
 			  </div>
 			</a>
 		  
 		  <div class="postShorten-header">
-			<small>公開日: 2022-02-17&nbsp;&nbsp;&nbsp;最終更新日: 2022-02-17</small>
+			<small>公開日: 2022-01-23&nbsp;&nbsp;&nbsp;最終更新日: 2022-01-23</small>
 			<h4 class="postShorten-title" itemprop="headline">
-			  <a class="topmenu-title" href="https://www.metalsenpai.com/post/2022/02/cpu-throttling/">
-				CPU のスロットリングにより Cubase の音が途切れてしまう
+			  <a class="topmenu-title" href="https://www.metalsenpai.com/post/2022/01/m-audio-keys/">
+				M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた
 			  </a>
 			</h4>
 		  </div>
@@ -379,10 +395,6 @@ if (!doNotTrack) {
                     
   <a class="tag tag--primary tag--small" href="https://www.metalsenpai.com/tags/cubase/">Cubase</a>
 
-  <a class="tag tag--primary tag--small" href="https://www.metalsenpai.com/tags/m-audio/">M-AUDIO</a>
-
-  <a class="tag tag--primary tag--small" href="https://www.metalsenpai.com/tags/keystation/">KEYSTATION</a>
-
                   </div>
                 
               
@@ -394,7 +406,7 @@ if (!doNotTrack) {
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://www.metalsenpai.com/post/2022/02/cpu-throttling/" data-tooltip="CPU のスロットリングにより Cubase の音が途切れてしまう" aria-label="次の記事: CPU のスロットリングにより Cubase の音が途切れてしまう">
+            <a class="post-action-btn btn btn--disabled">
           
               <i class="fa fa-angle-left"></i>
               <span class="hide-xs hide-sm text-small icon-ml">次の記事</span>
@@ -402,7 +414,7 @@ if (!doNotTrack) {
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://www.metalsenpai.com/post/2022/01/hello-world/" data-tooltip="はじめまして" aria-label="前の記事: はじめまして">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://www.metalsenpai.com/post/2022/01/m-audio-keys/" data-tooltip="M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた" aria-label="前の記事: M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた">
           
               <span class="hide-xs hide-sm text-small icon-mr">前の記事</span>
               <i class="fa fa-angle-right"></i>
@@ -421,7 +433,7 @@ if (!doNotTrack) {
     
       <li class="post-action hide-xs">
         
-          <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.metalsenpai.com/post/2022/01/m-audio-keys/" title="Facebook で共有" aria-label="Facebook で共有">
+          <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.metalsenpai.com/post/2022/02/cpu-throttling/" title="Facebook で共有" aria-label="Facebook で共有">
             <i class="fab fa-facebook-square" aria-hidden="true"></i>
           </a>
         
@@ -429,7 +441,7 @@ if (!doNotTrack) {
     
       <li class="post-action hide-xs">
         
-          <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?url=https://www.metalsenpai.com/post/2022/01/m-audio-keys/&amp;text=M-AUDIO%20KEYSTATION%2061%20%e3%81%ae%e9%8c%b2%e9%9f%b3%e3%83%bb%e5%86%8d%e7%94%9f%e3%83%bb%e5%81%9c%e6%ad%a2%e3%83%9c%e3%82%bf%e3%83%b3%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%20Cubase%20%e3%82%92%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f" title="Twitter で共有" aria-label="Twitter で共有">
+          <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?url=https://www.metalsenpai.com/post/2022/02/cpu-throttling/&amp;text=CPU%20%e3%81%ae%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88%e3%83%aa%e3%83%b3%e3%82%b0%e3%81%ab%e3%82%88%e3%82%8a%20Cubase%20%e3%81%ae%e9%9f%b3%e3%81%8c%e9%80%94%e5%88%87%e3%82%8c%e3%81%a6%e3%81%97%e3%81%be%e3%81%86" title="Twitter で共有" aria-label="Twitter で共有">
             <i class="fab fa-twitter" aria-hidden="true"></i>
           </a>
         
@@ -469,7 +481,7 @@ if (!doNotTrack) {
       
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://www.metalsenpai.com/post/2022/02/cpu-throttling/" data-tooltip="CPU のスロットリングにより Cubase の音が途切れてしまう" aria-label="次の記事: CPU のスロットリングにより Cubase の音が途切れてしまう">
+            <a class="post-action-btn btn btn--disabled">
           
               <i class="fa fa-angle-left"></i>
               <span class="hide-xs hide-sm text-small icon-ml">次の記事</span>
@@ -477,7 +489,7 @@ if (!doNotTrack) {
         </li>
         <li class="post-action">
           
-            <a class="post-action-btn btn btn--default tooltip--top" href="https://www.metalsenpai.com/post/2022/01/hello-world/" data-tooltip="はじめまして" aria-label="前の記事: はじめまして">
+            <a class="post-action-btn btn btn--default tooltip--top" href="https://www.metalsenpai.com/post/2022/01/m-audio-keys/" data-tooltip="M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた" aria-label="前の記事: M-AUDIO KEYSTATION 61 の録音・再生・停止ボタンを使って Cubase をコントロールしてみた">
           
               <span class="hide-xs hide-sm text-small icon-mr">前の記事</span>
               <i class="fa fa-angle-right"></i>
@@ -496,7 +508,7 @@ if (!doNotTrack) {
     
       <li class="post-action hide-xs">
         
-          <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.metalsenpai.com/post/2022/01/m-audio-keys/" title="Facebook で共有" aria-label="Facebook で共有">
+          <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://www.metalsenpai.com/post/2022/02/cpu-throttling/" title="Facebook で共有" aria-label="Facebook で共有">
             <i class="fab fa-facebook-square" aria-hidden="true"></i>
           </a>
         
@@ -504,7 +516,7 @@ if (!doNotTrack) {
     
       <li class="post-action hide-xs">
         
-          <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?url=https://www.metalsenpai.com/post/2022/01/m-audio-keys/&amp;text=M-AUDIO%20KEYSTATION%2061%20%e3%81%ae%e9%8c%b2%e9%9f%b3%e3%83%bb%e5%86%8d%e7%94%9f%e3%83%bb%e5%81%9c%e6%ad%a2%e3%83%9c%e3%82%bf%e3%83%b3%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6%20Cubase%20%e3%82%92%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%ab%e3%81%97%e3%81%a6%e3%81%bf%e3%81%9f" title="Twitter で共有" aria-label="Twitter で共有">
+          <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?url=https://www.metalsenpai.com/post/2022/02/cpu-throttling/&amp;text=CPU%20%e3%81%ae%e3%82%b9%e3%83%ad%e3%83%83%e3%83%88%e3%83%aa%e3%83%b3%e3%82%b0%e3%81%ab%e3%82%88%e3%82%8a%20Cubase%20%e3%81%ae%e9%9f%b3%e3%81%8c%e9%80%94%e5%88%87%e3%82%8c%e3%81%a6%e3%81%97%e3%81%be%e3%81%86" title="Twitter で共有" aria-label="Twitter で共有">
             <i class="fab fa-twitter" aria-hidden="true"></i>
           </a>
         
@@ -531,7 +543,7 @@ if (!doNotTrack) {
     
       <li class="share-option">
         
-          <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.metalsenpai.com%2Fpost%2F2022%2F01%2Fm-audio-keys%2F" aria-label="Facebook で共有">
+          <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.metalsenpai.com%2Fpost%2F2022%2F02%2Fcpu-throttling%2F" aria-label="Facebook で共有">
             <i class="fab fa-facebook-square" aria-hidden="true"></i><span>Facebook で共有</span>
           </a>
         
@@ -539,7 +551,7 @@ if (!doNotTrack) {
     
       <li class="share-option">
         
-          <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.metalsenpai.com%2Fpost%2F2022%2F01%2Fm-audio-keys%2F&amp;text=M-AUDIO&#43;KEYSTATION&#43;61&#43;%E3%81%AE%E9%8C%B2%E9%9F%B3%E3%83%BB%E5%86%8D%E7%94%9F%E3%83%BB%E5%81%9C%E6%AD%A2%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6&#43;Cubase&#43;%E3%82%92%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F" aria-label="Twitter で共有">
+          <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.metalsenpai.com%2Fpost%2F2022%2F02%2Fcpu-throttling%2F&amp;text=CPU&#43;%E3%81%AE%E3%82%B9%E3%83%AD%E3%83%83%E3%83%88%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%AB%E3%82%88%E3%82%8A&#43;Cubase&#43;%E3%81%AE%E9%9F%B3%E3%81%8C%E9%80%94%E5%88%87%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%86" aria-label="Twitter で共有">
             <i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter で共有</span>
           </a>
         
